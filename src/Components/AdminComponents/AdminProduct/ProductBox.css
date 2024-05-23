@@ -1,0 +1,124 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 1;
+  color: #333;
+}
+
+.product-details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #45a049;
+}
+
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.update-button,
+.delete-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.update-button {
+  background-color: #4CAF50;
+}
+
+.update-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
+
+.image-preview {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.update-product-form select {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none;
+  cursor: pointer;
+}
